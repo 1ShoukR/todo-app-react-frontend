@@ -1,0 +1,15 @@
+.toDoCardWrapper {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+	grid-template-columns: 200px 200px 200px 200px 200px;
+	margin-top: 20px;
+}
+
+.toDoCardContainer {
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	border: 1px solid black;
+}
